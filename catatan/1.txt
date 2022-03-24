@@ -1,0 +1,22 @@
+page 1-40
+
+1. C++ 4 programming style:
+- Procedural programming
+- Data abstraction
+- OOP
+- Generic programming
+
+2. Pemakaian seluruh style menciptakan program yang fleksibel, efisien, performa tinggi, mudah dimaintain, dll
+
+3. declaration = statement yang memperkenalkan sebuah nama ke dalam program. Komponen dalam suatu nama:
+- type = menyatakan set dari jenis value tertentu dan operasi yang dapat dilakukan
+- object = memory yang menyimpan value dari satu/banyak type
+- value = set of bits berdasarkan dari type
+- variable = named object
+
+4. fundamental type
+- bool  // Boolean, 1 byte, true and false
+- char  // character, 1 byte, 'a' 'z' '9'
+- int   // integer, 4 bytes, 1 42 1066
+- double// double-precision floating-point number, 8 bytes, 3.14 299793.0
+
