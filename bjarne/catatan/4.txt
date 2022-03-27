@@ -1,0 +1,10 @@
+page 44 - 45
+
+1. deklarasi elemen tipe data char bisa dilakukan dengan:
+char v[6];  // array menampung 6 karakter
+char* p;    // pointer ke karakter
+Setiap array memiliki batas bawah 0, jadi v memiliki 6 elemen, v[0] sampai v[5].
+pointer bisa menampung alamat dari sebuah object dengan tipe yang pas
+char* p = &v[3];    // p menunjuk ke elemen v yang keempat
+char x = *p         // *p adalah object yang ditunjuk oleh p
+dengan kata lain, prefix unary * artinya "contents of" dan prefix unary & artinya "address of".
