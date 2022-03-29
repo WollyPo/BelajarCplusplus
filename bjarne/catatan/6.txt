@@ -1,0 +1,15 @@
+page 47-50
+
+1. User-defined types dapat dibuat dari 
+- tipe-tipe data fundamental,
+- const modifier,
+- declarator operators built-in types
+
+2. langkah pertama dalam data structure adalah sebuah struct.
+- 
+
+3. Sebuah kelas dapat berisi data, function, atau tipe member.
+- interface didefinisikan oleh public member
+- private member hanya bisa diakses pada interface bersangkutan
+
+4.
