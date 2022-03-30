@@ -19,4 +19,3 @@ page 1-40
 - char  // character, 1 byte, 'a' 'z' '9'
 - int   // integer, 4 bytes, 1 42 1066
 - double// double-precision floating-point number, 8 bytes, 3.14 299793.0
-
