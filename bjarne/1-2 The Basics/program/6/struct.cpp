@@ -13,18 +13,19 @@ double read_and_sum(int s){
     Vector v;
     vector_init(v,s);       // allocate s elements for v
     for (int i=0; i!=s; ++i)
-        cin>>v.elem[i];     // read into elements
+        cin>>v.elem[i];     // read into elements (6 angka input)
     double sum = 0;
     for (int i=0; i!=s; ++i)
         sum+=v.elem[i];     // take the sum of the elements
     return sum;
 }
-// void f(Vector v, Vector& rv, Vector∗ pv){
-//     int i1 = v.sz;  // access through name
-//     int i2 = rv.sz; // access through reference
-//     int i4 = pv−>sz;// access through pointer
-// }
+void f(Vector v, Vector& rv, Vector* pv){
+    int i1 = v.sz;  // access through name
+    int i2 = rv.sz; // access through reference
+    int i4 = pv->sz;// access through pointer
+}
 int main(){
     double x = read_and_sum(6);
+    cout<<x<<endl;
     return 0;
 }
