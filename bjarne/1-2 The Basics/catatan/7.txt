@@ -1,0 +1,53 @@
+page 50-58
+
+1. c++ menyediakan bentuk user-defined type yang dapat
+- enumerators berada pada scope enum class, jadi mereka dapat dipakai berulang pada enum class lainnya. Contoh Color::red berbeda dengan Traffic_light::red
+- enumeration diapaki untuk merepresentasikan set dari integer values.
+- fungsinya untuk membuat code lebih mudah dibaca dan kurang error
+- untuk mengubah enumerator value ke integer, kita perlu menghapus kata class dari enum class, atau casting ke integer dengan int()
+
+enum class Color { red, blue , green };
+enum class Traffic_light { green, yellow, red };
+Color col = Color::red;
+Traffic_light light = Traffic_light::red;
+
+Color x = red;                  // error : which red?
+Color y = Traffic_light::red;   // error : that red is not a Color
+Color z = Color::red;           // OK
+
+int i = Color::red; // error : Color ::red is not an int
+Color c = 2;        // error : 2 is not a Color
+
+2. C++ terdiri dari bagian-bagian terpisah, untuk mengurus semuanya kita perlu define interaksi di antara bagian-bagian tersebut.
+- Langkah awal yang perlu dilakukan adalah membedakan interface pada sebuah bagian dan implementasinya.
+- pada level language, C++ membuat interface berdasarkan declaration
+- declaration menspesifikasi semua kebutuhan pemakaian function atau type.
+
+3. C++ menyediakan separate compilation:
+user code dapat dibagi beberapa source files misalnya tipe dan function, definisi, dll.
+- tujuan separation ini agar mudah mendeteksi error.
+
+4. Namespace adalah mekanisme yang membuat deklarasi jadi kepunyaan bersama dan nama mereka tidak akan bentrok satu sama lain.
+
+5. error handling di c++ dirancang lebih baik:
+- dengan high level construct untuk membatasi kesempatan kita membuat kesalahan
+- meningkatkan kemungkinan compiler menangkap error
+- elegant dan efisien abstractions
+- modularity dan abstraction membuat run-time error bisa dideteksi
+- error handling sangat penting
+
+6. exception menggunakan try catch throw, hal ini digunakan untuk precaution error.
+
+7. invariants berpusat pada desain kelas, sama seperti precondition berperan  dalam desain function.
+Invariants:
+- membantu mengerti apa yang kita inginkan
+- mendorong kita untuk spesifik, membantu kita membuat code yang benar (setelah debug dan test).
+
+8. Static assertions berfungsi untuk perform checking pada properties yang dikenal sebagai compiler error message.
+Contoh:
+static_assert(4<=sizeof(int), "integers are too small"); // check integer size
+
+format: static_assert(A, S)
+bila A salah, maka S akan diprint sebagai compiler error message
+
+9. Focus on programming techniques, not on language features; §2.1.

@@ -1,0 +1,22 @@
+page 59 - 62
+
+1. chapter ini bertujuan untuk memberi ide mengenai C++'s support dalam abstraction dan resource management.
+
+2. pusat fitur dari c++ adalah class. Class adalah user-defined type yang menyediakan konsep dalam kode program.
+
+3. Kelas dibagi jadi 3 jenis, yaitu:
+- Concrete class
+- Abstract class
+- Class in class hierarchies
+
+Terdapat kelas kombinasi dari beberapa jenis kelas.
+
+4. Concrete type adalah kelas yang berperilaku seperti halnya built-in types. Contohnya complex number dan infinite-precision integer seperti built-in int().
+
+5. Terkadang kita menggunakan concrete type, karena lebih time and space efficient dibandingkan dengan real definitionnya. Manfaat concrete class:
+- menempatkan object dari concrete type pada stack, statically alokasi memori, dan pada objek lainnya.
+- merujuk pada object secara langsung (tidak tergantung pointer atau reference)
+- inisialisasi object secara langsung dan komplit
+- kopas objects.
+
+6.
