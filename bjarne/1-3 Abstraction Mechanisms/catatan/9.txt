@@ -1,0 +1,9 @@
+page 64 - 67
+
+1. Container berfungsi untuk menampung elemen-elemen. Maka dari itu, kita perlu membuat cara efektif agar bisa memasukan elemen ke dalam Container. Ada 2 cara yang umum dipakai:
+- initializer-list constructor -> inisialisasi dengan list of elements
+- push_back(): menambah elemen di belakang sequence
+
+2. abstract types adalah tipe yang menjauhkan user dari detail-detail. Karena kita tidak tau representasi dari abstract type, maka alokasi object perlu melalui references atau pointers
+
+3. g() masih belum jalan
