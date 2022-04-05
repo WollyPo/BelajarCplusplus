@@ -49,5 +49,3 @@ static_assert(4<=sizeof(int), "integers are too small"); // check integer size
 
 format: static_assert(A, S)
 bila A salah, maka S akan diprint sebagai compiler error message
-
-9. Focus on programming techniques, not on language features; §2.1.
