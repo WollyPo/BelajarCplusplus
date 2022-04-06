@@ -1,0 +1,12 @@
+page 79 - 85
+
+1. Kita bisa menulis function dengan elemen dari container apapun menggunakan template. Salah satu template yang bisa digunakan adalah Value template argument.
+
+2. Salah satu jenis template lagi yang berguna adalah function object (functor), yang digunakan untuk mendefinisikan object yang bisa memanggil function.
+
+3. Template dapat didefinisikan untuk menerima arbitrary number dari argumen arbitrary type, template ini biasa disebut sebagai variadic template.
+
+4. Terkadang kita perlu memakai sinonim dari tipe atau template. Hal ini dilakukan untuk:
+- memakai tipe yang sama dengan template argument
+- menulis kode yang dapat bekerja untuk setiap container yang mengikuti 
+- define template dengan binding beberapa atau semua argumen (mengikut tipe saat deklarasi)

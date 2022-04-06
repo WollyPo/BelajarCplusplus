@@ -1,0 +1,22 @@
+1. Kamu tidak perlu tahu setiap detail dari C++ untuk menulis program yang baik.
+
+2. Focus on programming techniques, not on language features.
+
+3. 
+- Concrete class: untuk merepresentasikan konsep yang simpel dan komponen performance-critical.
+- Abstract class: sebagai interface ketika memerlukan pemisahan interface dan implementation
+- Hierarchies class: representasi konsep inherent hierarchical structure (bedakan implementasi inheritance dengan interface inheritance)
+- Containers: definisi sebagai resource handle template, menampung koleksi value dari tipe data yang sama
+- Function template: representasi general algorithm
+- Function object: representasi policies dan actions
+- Alias: menyediakan uniform notation untuk tipe yang bervariasi di antara tipe yang mirip atau di antara implementasi
+
+4. Hindari "naked" new and delete operation.
+
+5. Gunakan resource handles dan RAII untuk mengelola resources.
+
+6. Kontrol construction, copy, move, dan destruction dari object.
+
+7. Return containers by value (andalkan move untuk efisiensi).
+
+8. Sediakan keamanan tinggi untuk resources.

@@ -1,0 +1,5 @@
+page 67 - 72
+
+1. Virtual function memberikan kemampuan pada objek untuk secara tepat digunakan pada saat size dari objek dan layout data tidak diketahui.
+
+2. Class hierarchy adalah sebuah kelompok kelas yang disusun oleh derivasi.

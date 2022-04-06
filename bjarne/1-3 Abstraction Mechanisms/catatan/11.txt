@@ -1,0 +1,9 @@
+page 72-77
+
+1. Object bisa disalin dengan metode initialization dan assignment. Ketika kita mendesain sebuah kelas, kita perlu mempertimbangkan bagaimana sebuah object dapat disalin.
+
+2. Dalam object dengan jumlah yang lebih besar dan pemakaian yang lebih sedikit, lebih efektif kalau kita move sebuah object dibandingkan melakukan copy.
+
+3. Untuk menyediakan control yang komplit dalam sebuah resource dibutuhkan constructor, copy operation, move operation, dan destructor.
+
+4. menggunakan default copy atau move untuk sebuah kelas bisa membahayakan. Salah satu cara mengatasinya adalah dengan melakukan delete pada default copy dan move. Setelah dihapus barulah kita bentuk clone function untuk copy dan move object.

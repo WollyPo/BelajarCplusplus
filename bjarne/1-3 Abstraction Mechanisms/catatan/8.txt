@@ -1,0 +1,7 @@
+page  62-64
+
+1. Container adalah object yang menampung koleksi elemen.
+
+2. Salah satu kelemahan dalam container adalah tidak dapat melakukan deallocate elements.
+
+3. Untuk dealokasi memori, mekanisme yang dipakai adalah destructor. Destructor membersihkan space dengan delete operator.
