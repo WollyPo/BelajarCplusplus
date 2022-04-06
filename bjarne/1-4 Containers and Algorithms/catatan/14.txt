@@ -1,0 +1,23 @@
+page 87 - 90
+
+1. libraries adalah basis dari sebuah bahasa pemrograman. Pada buku ini akan dijelaskan secara rinci standard-library yang berguna seperti string, ostream, vector, map, unique_ptr, thread, regex, dan complex, serta cara penggunaannya.
+
+2. Fitur yang diberikan standard library dapat diklasifikasi menjadi:
+- Run-time language support
+- C standard library
+- String dan I/O streams
+- Framework of containers dan algorithms
+- Support numerical computation
+- Support regex matching
+- Support concurrent programming: thread & lock
+- Keperluan template metaprogramming, STL-style generic programming, dan general programming
+- Smart Pointers untuk resource management
+- Interface untuk garbage collectors
+- Special-purpose containers
+
+3. Kriteria untuk include sebuah kelas dalam library:
+- dapat bermanfaat untuk setiap C++ programmer
+- dapat menyediakan general form yang tidak menambahkan perbedaan signifikan dari versi sederhananya
+- mudah dipakai dan dipelajari
+
+4. Untuk menggunakan standard library, perlu menambah prefix std::
