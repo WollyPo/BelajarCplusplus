@@ -1,1 +1,8 @@
-hello world!
+Page 97 - 98
+
+1. Pemilihan elemen memengaruhi memory size dan run-time performance. Setiap kasus memerlukan pemakaian elemen yang tepat.
+
+2. <vector> tidak memiliki range checking dan bisa menimbulkan error out of range bila tidak waspada.
+
+3. Ada 2 cara untuk memberikan solusi pada vector range checking, yaitu modifikasi operator pada built in container atau memakai throw error out of range.
+
