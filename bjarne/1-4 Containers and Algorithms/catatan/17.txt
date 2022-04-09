@@ -1,0 +1,15 @@
+Page 98 - 99
+
+1. <list> merupakan standard library yang merepresentasikan doubly-linked list.
+
+2. Kita menggunakan list pada saat:
+- ingin melakukan insert dan delete elements, tanpa menggerakkan elemen lainnya
+
+3. Untuk mengidentifikasi elemen dalam list, kita memakai iterator. List iterator mengidentifikasi sebuah elemen dalam list dan bisa digunakan untuk iterasi sepanjang list.
+
+4. Setiap container dalam standard library memiliki function begin() dan end(). Kedua fungsi ini melakukan return sebuah iterator untuk elemen pertama dan elemen terakhir dari container.
+
+5. Penulisan list bisa diganti dengan vector. Bila dikomparasi dengan vector, vector lebih unggul dalam hal performa:
+- traversal (find() dan count())
+- sorting (sort())
+- searching (binary_search())
