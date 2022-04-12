@@ -1,0 +1,11 @@
+page 103 - 108
+
+1. Salah satu kegunaan iterator adalah mengecek keberadaan sebuah data, misalnya menggunakan find()
+
+2. Kita juga dapat menggunakan iterator pada function find_all()
+
+3. Iterator digunakan untuk memisahkan algoritma dan container. Algoritma beroperasi pada data melalui iterator dan tidak mengenal container dalam hal elemen apa yang tersimpan. Sebaliknya container juga tidak tahu mengenai operasi algoritma pada elemen-elemennya.
+
+4. memakai ++ membuat iterator akan berpindah ke elemen selanjutnya. * menyatakan elemen dimana iterator dimaksud.
+
+5. istream_iterator dan ostream_iterator tidak dipakai secara langsung, melainkan dipakai dalam argumen untuk algoritma.
