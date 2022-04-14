@@ -1,0 +1,15 @@
+Page 100 - 102
+
+1. standard library menyediakan sebuah red black tree function bernama map. 
+
+2. Map dikenal sebagai associative array atau dictionary. Map diimplementasi dari balanced binary tree.
+
+3. Kita bisa menginisialisasi sebuah map seperti pada vector dan list.
+
+4. Map terdiri dari 2 tipe <tipe 1, tipe 2>. Tipe 1 merupakan key, sedangkan tipe 2 merupakan value. Map yang dihit menggunakan key akan mereturn value dari second type.
+
+5. Jika key tidak ditemukan dalam map, maka return valuenya adalah default value. Untuk int akan mereturn 0.
+
+6. Dalam beberapa kasus, ada baiknya kita memerlukan hash ketimbang comparison seperti <. Standard library menyediakan hashed container yang biasa disebut unordered_map.
+
+7. Unordered map menyediakan default hash function untuk string.

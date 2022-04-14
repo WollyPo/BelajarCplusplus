@@ -1,0 +1,29 @@
+page 90 - 97
+
+1. STL menyediakan <string> yang berguna untuk berbagai string operation.
+
+2. untuk menyambung string, kita dapat menggunakan operasi +=
+
+3. Sebuah string dapat dimutasi dengan =, +=, [], substring.
+
+4. substr() return sebuah substring dari argument.
+
+5. replace() mengganti substring dengan string lain.
+
+6. string juga bisa dibandingkan satu dengan yang lain.
+
+7. c++ juga menyediakan I/O library yaitu <iostream>. Library ini memepermudah input dan output.
+
+8. syntax cout dan << digunakan sebagai output operator.
+
+9. untuk input syntax yang digunakan adalah cin dan >>
+
+10. khusus untuk input string, kita bisa menggunakan getline() function.
+
+11. kita juga bisa mendefinisikan sendiri I/O dalam c++. Untuk definisi output bisa memakai ostream& operator<<() function. Untuk definisi input bisa menggunakan istream& operator>>() function.
+
+12. Biasanya komputasi melibatkan pembuatan koleksi values, kemudian melakukan manipulasi terhadap koleksi tersebut. Kelas yang bertujuan menampung objects baisa disebut container. Salah satunya adalah vector.
+
+13. <vector> merupakan salah satu STL yang paling berguna. Elemen disimpan dalam memory yang berkelanjutan.
+
+14. vector dapat menambung banyak object dengan tipe sama. vector juga bisa dikopi dengan inisialisasi dan assignment.
