@@ -1,0 +1,14 @@
+Page 114 - 
+
+1. Concurrency = eksekusi beberapa tugas secara bersamaan, dilakukan untuk meningkatkan komputasi atau responsiveness
+
+2. Standard library menyediakan concurrency support seperti: thread, mutex, lock(), package_task, future
+
+3. Thread adalah level sistem yang merepresentasikan task dalam sebuah program.
+
+4. join() memastikan kita tidak keluar dari function sampai seluruh threads selesai. Dengan kata lain join = menunggu sampai thread terminated
+
+5. Mengenai threads: 
+- Threads adalah program yang berbagi dalam sebuah single addrees space
+- Thread berbeda dari process, di mana data tidak secara langsung terhubung
+- Threads berkomunikasi melalui shared objects, yang dikendalikan oleh locks atau mekanisme lain yang mencegah data races
