@@ -1,0 +1,5 @@
+page 116 - 117
+
+1. Pada sebuah task, kita butuh data yang diproses. Kita bisa dengan mudah pass data sebagai argument.
+
+2. pass argument non-const reference, ketika task akan mengubah value terhadap sebuah data.
