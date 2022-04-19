@@ -1,0 +1,14 @@
+Page 120 - 123
+
+1. stl menyediakan fasilitas untuk beroperasi pada level tasks, daripada secara langsung berada di lower level dari threads dan locks:
+- future and promise: return value dari task yang muncul di thread lain
+- packaged_task: launch task dan connect mekanisme untuk return result
+- async(): launch task dengan cara yang mirip dengan memanggil function
+
+2. future dan promise dapat membuat transfer value antara 2 task, tanpa secara eksplisit memakai lock.
+
+3. ketika task mau pass value ke task lain, value tersebut ditaruh di dalam promise. Value tersebut akan muncul pada future yang bersangkutan, dimana bisa dilakukan read.
+
+4. untuk menghubungkan future dan promise, kita membutuhkan packaged_task. 
+
+5. async() menjalankan tasks yang memiliki potensi berjalan secara asynchronously.
