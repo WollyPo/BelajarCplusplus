@@ -1,0 +1,14 @@
+page 123 - 126
+
+1. ada beberapa komponen yang berguna di stl:
+- time: clock, duration
+- type: iterator_traits, is_arithmetic
+- heterogeneous sets: pair, tuple
+
+2. untuk memakai stl time, kita perlu memakai <chrono> dan hal ini diperlukan untuk takaran efisiensi
+
+3. type function adalah sebuah function yang dievaluasi pada compile-time saat diberikan tipe sebagai argument atau return.
+
+4. pemakaian type function biasa dikenal dengan sebutan metaprogramming atau template metaprogramming
+
+5. 
