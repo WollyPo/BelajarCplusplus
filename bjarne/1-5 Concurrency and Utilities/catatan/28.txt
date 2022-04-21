@@ -1,0 +1,9 @@
+page 126 - 127
+
+1. elemen pertama dari pair disebut first dan elemen kedua disebut second
+
+2. pair dan tuple bisa digunakan dengan stl <utility>.
+
+3. jika dibutuhkan lebih dari 2 elemen dengan heterogeneous type, kita bisa memakai tuple.
+
+4. elemen dari tuple dipanggil memakai nomor.

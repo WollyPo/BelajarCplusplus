@@ -1,0 +1,11 @@
+Page 117 - 120
+
+1. Task mungkin membagi data, sehingga perlu ada synchronization yang membuat salah satu task selalu memiliki akses.
+
+2. mutex adalah mutual exclusion object, thread bisa mendapat mutex menggunakan lock().
+
+3. korespondensi antara shared data dan mutex terjadi secara convensional.
+
+4. terkadang, sebuah thread perlu menunggu untuk semacam event, seperti penyelesaian sebuah task atau suatu jumlah waktu yang harus berjalan. Event yang paling sederhana adalah melalui waktu.
+
+5. 

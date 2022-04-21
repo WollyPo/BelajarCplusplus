@@ -1,0 +1,11 @@
+page 111 - 114
+
+1. Salah satu tugas kunci dari berbagai nontrivial program adalah untuk mengelola resources. Contohnya adalah memory, locks, sockets, thread handles, dan file handles.
+
+2. Untuk long-running program, leaking bisa menimbulkan masalah degradasi performa dan crash. Untuk mencegahnya, perlu menggunakan constructor/destructor agar yakin bahwa resource tidak berlarut-larut.
+
+3. unique_ptr merepresentasikan unique ownership, sedangkan shared_ptr merepresentasikan shared ownership. Kedua jenis pointer ini bertujuan mencegah memory leak.
+
+4. Lalu kapan kita perlu memakai smart pointers daripada resource handle operation yang didesign untuk resource? Jawabannya ketika kita membutuhkan pointer semantics:
+- ketika kita share sebuah object
+- ketika kita merujuk pada sebuah polymorphic object
