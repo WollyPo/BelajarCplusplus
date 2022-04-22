@@ -1,0 +1,9 @@
+page 127 - 128
+
+1. tidak bisa print regex pattern dengan cout
+
+2. regex adalah alat untuk memproses text, untuk cpp menggunakan stl <regex>.
+
+3. regex_search(line,matches,pat) mencari line untuk apapun yang match dengan regex dalam pattern, bila ketemu disimpan ke dalam matches.
+
+4. biasanya untuk menyimpan matches menggunakan tipe smatch
