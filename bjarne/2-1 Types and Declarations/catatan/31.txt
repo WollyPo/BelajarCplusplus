@@ -1,4 +1,4 @@
-page 135 - 
+page 135 - 137
 
 1. banyak hal dianggap implementation-defined oleh standard. Implementation-defined artinya 
 perlakuan khusus diberlakukan agar object tetap bisa didefined.
