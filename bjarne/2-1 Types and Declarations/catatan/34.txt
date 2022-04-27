@@ -1,0 +1,42 @@
+page 140 - 144
+
+1. jenis-jenis char pada c++:
+- char
+- signed char
+- unsigned char
+- wchar_t, menampung Unicode dan large char lain
+- char16_t, untuk 16-bit char sets seperti UTF-16
+- char32_t, untuk 32-bit char sets seperti UTF-32
+
+2. char pada umumnya memiliki 8 bit dan dapat menampung 256 value berbeda. hal yang tidak boleh kita asumsikan adalah:
+- tidak ada lebih dari 127 character pada 8-bit char sets
+- tidak ada lebih char alphabet dari yang disediakan dalam bahasa inggris
+- alphabet character berdekatan
+- setiap char yang digunakan dalam penulisan c++ tersedia
+- char muat dalam 1 byte
+
+3. karena char type adalah integral type, maka arithmetic dan bitwise logical operation bisa dipakai.
+
+4. untuk mengubah value int ke char gunakan static_cast<char>()
+
+5. character literal adalah sebuah character yang digabung dalam sebuah single quote. beberapa char mempunyai standar nama menggunakan backslash:
+- Newline               NL (LF)     \n
+- Horizontal tab        HT          \t
+- vertical tab          VT          \v
+- backspace             BS          \b
+- carriage return       CR          \r
+- form feed             FF          \f
+- alert                 BEL         \a
+- backslash             \           \\
+- question mark         ?           \?
+- single quote          '           \'
+- double quote          "           \"
+- octal number          ooo         \ooo
+- hexadecimal number    hhh         \xhhh ...
+
+6. contoh octal hexadecimal dan decimal
+'\6'        '\x6'       6       ACK
+'\60'       '\x30'      48      '0'
+'\137'      '\x05f'     95      '_'
+
+7. 
