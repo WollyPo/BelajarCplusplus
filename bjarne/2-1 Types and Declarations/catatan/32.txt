@@ -1,0 +1,31 @@
+page 137 - 138
+
+1. implementation dalam c++ bisa terjadi dalam bentuk hosted atau freestanding.
+- hosted: semua stl yang dideskripsikan dengan standard
+- freestanding: lebih sedikit stl dan sangat dekat ke hardware
+
+2. header untuk freestanding:
+Types                       // <cstddef>
+Impleemntation properties   // <cfloat><limits><climits>
+Interger Types              // <cstdint>
+Start and temination        // <cstdlib>
+Dynamic memory management   // <new>
+Type identification         // <typeinfo>
+Exception handling          // <exception>
+Initializer lists           // <initializer_list>
+Other run-time support      // <cstdalign><cstdarg><cstdbool>
+Type traits                 // <type_traits>
+Atomics                     // <atomic>
+
+3. c++ ditulis dengan basic source character set, yang terdiri dari (ASCII):
+- letters
+- digits
+- graphical characters
+- whitespace
+
+4. mengenai ASCII:
+- ASCII mengandung karakter penghubung dan simbol operator yang tidak dimiliki charset lain (']', '{', '!')
+- kita perlu notasi karakter yang tidak memiliki representasi (newline, char value=17)
+- ASCII tidak megnandung karakter yang tidak ada dalam bahasa inggris
+
+5. tipe menentukan operasi yang bisa dilakukan untuk sebuah data.

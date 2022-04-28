@@ -1,0 +1,17 @@
+page 128 - 132
+
+1. awalnya c++ tidak didesain untuk komputasi numerik, tetapi c++ sangat diapaki untuk komputasi numerik dilihat dari standard library yang menyediakannya.
+
+2. fungsi matematik ditemukan pada stl <cmath>, seperti sqrt(), log(), sin() untuk float, double, long double. complex number version dari fungsi tsb ada juga di stl <complex>.
+
+3. ada juga beberapa algo lain di stl <numeric> seperti accumulate()
+
+4. random number biasa dipakai untuk testing, game, simulasi, dan security. stl yang digunakan adalah <random>, terdiri dari:
+- engine yang memproduksi sequence random atau pseudo-random values
+- distribusi yang memetakan value ke dalam distribusi matematik dalam sebuah range.
+
+5. bind() berfungsi membuat function object yang menjalankan argumen pertamanya berdasarkan argumen keduanya sebagai argumennya.
+
+6. ada jenis vector yang dibuat untuk optimisasi numerical computation bernama valarray, terdapat pada stl <valarray>
+
+7. stl <limits> dapat digunakan untuk mendeskripsikan properti dari tipe data.

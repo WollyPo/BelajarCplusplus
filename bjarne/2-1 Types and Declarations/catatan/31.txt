@@ -1,0 +1,10 @@
+page 135 - 137
+
+1. banyak hal dianggap implementation-defined oleh standard. Implementation-defined artinya 
+perlakuan khusus diberlakukan agar object tetap bisa didefined.
+
+2. well-defined artinya object didefinisikan sesuai tipe.
+
+3. undefined adalah memaksa menggunakan object yang belum dibuat dalam program. Kemungkinan akan selalu error.
+
+4. unspecified adalah penggunaan unspecified value.

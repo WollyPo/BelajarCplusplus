@@ -1,0 +1,26 @@
+page 138 - 140
+
+* = integral type
+^ = arithmetic type
+` = user-defined type
+1. c++ punya tipe fundamental yang digunakan untuk menyimpan data:
+- boolean*^
+- character*^
+- integer*^
+- floating-point^
+- void
+
+2. tipe menggunakan declarator operator:
+- pointer
+- array
+- reference
+
+3. tipe hasil definisi:
+- data structure & class`
+- enumeration`
+
+4. boolean punya value di antara true atau false
+
+5. true memiliki value 1 ketika diconvert ke integer dan false memiliki value 0.
+
+6. dalam arithmetic dan logical expression, bool dikonversi ke int.
