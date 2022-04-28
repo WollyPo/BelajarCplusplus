@@ -1,0 +1,45 @@
+page 144 - 146
+
+1. integer juga memiliki bentuk biasa:
+- int
+- signed int / signed
+- unsigned int / unsigned
+- short int / short
+- long int / long
+- long long int / long long
+
+2. tidak seperti char, int akan selalu signed. jadi signed int = int
+
+3. untuk menggunakan control detail terhadap ukuran integer, kita bisa menggunakan <cstdint> alias:
+- int64_t, signed integer dengan 64 bits
+- uint_fast16_t, unsigned integer dengan 8 bits
+- int_least32_t, signed integer dengan at least 32 bits
+
+4. integer literal memiliki 3 samaran: decimal, octal, dan hexadecimal
+
+        0       0x0
+2       02      0x2
+63      077     0x3f
+83      0123    0x63
+
+huruf a,b,c,d,e,f atau uppercasenya merepresentasikan 10, 11, 12, 13, 14, 15, dan seterusnya
+
+5. octal dan hexadecimal berguna untuk bit patterns.
+
+6. suffix dapat ditulis untuk menunjukkan tipe secara eksplisit. cth:
+- 3 sebagai int
+- 3U sebagai unsigned int
+- 3L sebagai long int
+
+7. jika tidak ada suffix yang diberikan, maka compiler akan memberi integer literal yang cocok dengan value dan implementasi ukurannya.
+
+8. representasi form, value, suffix:
+• If it is decimal and has no suffix, it has the first of these types in which its value can be represented: int, long int, long long int.
+• If it is octal or hexadecimal and has no suffix, it has the first of these types in which its value can be represented: int, unsigned int, long int, unsigned long int, long long int, unsigned long long int.
+• If it is suffixed by u or U, its type is the first of these types in which its value can be represented: unsigned int, unsigned long int, unsigned long long int.
+• If it is decimal and suffixed by l or L, its type is the first of these types in which its value can be represented: long int, long long int.
+• If it is octal or hexadecimal and suffixed by l or L, its type is the first of these types in which its value can be represented: long int, unsigned long int, long long int, unsigned long long int.
+• If it is suffixed by ul, lu, uL, Lu, Ul, lU, UL, or LU, its type is the first of these types in which its value can be represented: unsigned long int, unsigned long long int.
+• If it is decimal and is suffixed by ll or LL, its type is long long int.
+• If it is octal or hexadecimal and is suffixed by ll or LL, its type is the first of these types in which its value can be represented: long long int, unsigned long long int.
+• If it is suffixed by llu, llU, ull, Ull, LLu, LLU, uLL, or ULL, its type is unsigned long long int.
