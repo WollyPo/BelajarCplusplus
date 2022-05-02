@@ -1,0 +1,7 @@
+page 151 - 153
+
+1. sebelum identifier digunakan, identifier tersebut perlu dideklarasi terlebih dahulu. Tipe identifier perlu dispesifikasi untuk didatakan oleh compiler mengenai jenisnya.
+
+2. deklarasi juga bisa dibarengi dengan definisi.
+
+3. untuk type, alias, template, function, dan constant, valuenya permanen/tidak bisa diubah lagi.
