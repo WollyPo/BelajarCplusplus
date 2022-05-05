@@ -1,0 +1,15 @@
+page 157 - 159
+
+1. deklarasi memperkenalkan nama dalam sebuah cakupan/scope. Artinya name hanya bisa digunakan pada bagian tertentu dari program.
+
+2. jenis-jenis scope:
+- Local scope, name yang dideklarasi dalam sebuah function atau lambda
+- Class scope, name yang dideklarasi dalam sebuah class, namun tidak berada dalam function yang ada di kelas tersebut. Name ini akan berlaku dari awal hingga akhir kelas.
+- Namespace scope, name yang dipanggil dalam sebuah namespace member name, tanpa berada di dalam suatu function
+- Global scope, name yang dideklarasi di luar function apapun
+- statement scope, name yang didefine dalam () dan biasanya ada di for-, while-, if-, switch-
+- function scope, label di dalam scope dari deklarasi hingga akhir function
+
+3. untuk assign variabel nama sama dan discope global, bisa gunakan ::
+
+4.
