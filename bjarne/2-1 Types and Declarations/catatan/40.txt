@@ -1,0 +1,9 @@
+page 155 - 156
+
+1. name terdiri dari urutan huruf dan digit. Karakter pertama harus berupa huruf atau '_'. Tidak ada batas jumlah karakter dalam sebuah nama di c++
+
+2. c++ keyword tidak bisa digunakan sebagai nama yang user-defined.
+
+3. uppercase dan lowercase dihitung berbeda dalam penamaan di c++.
+
+4. 

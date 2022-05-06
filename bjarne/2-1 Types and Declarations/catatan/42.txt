@@ -1,0 +1,17 @@
+page 159 - 161
+
+1. initializer menentukan initial value dari sebuah object. Terdapat 4 style initializer:
+X a1 {v};
+X a2 = {v};
+X a3 = v;
+X a4(v);
+
+2. aturan dalam inisialisasi:
+- integer tidak dapat diubah ke bentuk integer lain yang tidak bisa memuat value-nya.
+- floating-point juga tidak dapat diubah ke bentuk floating-point yang tidak bisa memuat value-nya.
+- floating-point value tidak bisa diubah ke integer
+- integer value tidak bisa diubah ke floating-point
+
+3. tidak ada keuntungan memakai {} dalam inisialisasi, ketika tipe datanya auto.
+
+4. pakai {} initialization sebagai awal empty list.

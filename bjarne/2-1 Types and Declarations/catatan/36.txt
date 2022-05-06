@@ -1,0 +1,38 @@
+page 146 - 148
+
+1. floating-point adalah perkiraan bilangan real yang direpresentasikan dalam jumlah yang tetap dalam memory.
+
+2. terdapat 3 jenis floating-point:
+- float (single-precision)
+- double (double-precision)
+- long double (extended-precision)
+
+jika tidak yakin, selalu gunakan double
+
+3. default floating-point literal adalah double. untuk mendeskripsikan float atau long double bisa ditulis dengan:
+- float
+3.14159265f 2.0f 2.997925F 2.9e−3f
+- long double
+3.14159265L 2.0L 2.997925L 2.9e−3L
+
+4. terdapat prefix dan suffix lengkap:
+Notation    *fix    Meaning         example
+--------------------------------------------
+0           prefix  octal           0776
+0x  0X      prefix  hexadecimal     0xff
+u   U       suffix  unsigned        10U
+l   L       suffix  long            20000L
+ll  LL      suffix  long long       20000LL
+f   F       suffix  float           10f
+e   E       infix   floating-point  10e−4
+.           infix   floating-point  12.3
+'           prefix  char            'c'
+u'          prefix  char16_t        u'c'
+U'          prefix  char32_t        U'c'
+L'          prefix  wchar_t         L'c'
+"           prefix  string          "mess"
+R"          prefix  raw string      R"(\b)"
+u8" u8R"    prefix  UTF-8 string    u8"foo"
+u"  uR"     prefix  UTF-16 string   u"foo"
+U"  UR"     prefix  UTF-32 string   U"foo"
+L"  LR"     prefix  wchar_t string  L"foo"

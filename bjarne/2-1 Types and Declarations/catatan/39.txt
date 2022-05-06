@@ -1,0 +1,21 @@
+page 153 - 155
+
+1. terdapat 5 bagian struktur dari deklarasi:
+- optional prefix specifier
+- base type
+- declarator
+- optional suffix function specifier
+- optional initializer/function body
+
+2. declarator operator:
+prefix      ∗           pointer
+prefix      ∗const      constant pointer
+prefix      ∗volatile   volatile pointer
+prefix      &           lvalue reference (§7.7.1)
+prefix      &&          rvalue reference (§7.7.2)
+prefix      auto        function (using suffix return type)
+postfix     []          array
+postfix     ()          function
+postfix     −>          returns from function
+
+3. operator pada deklarasi nama hanya berlaku untuk satu individual, tidak untuk semua nama yang ada pada sebaris deklarasi.

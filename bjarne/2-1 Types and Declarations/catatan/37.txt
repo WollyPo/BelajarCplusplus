@@ -1,0 +1,17 @@
+page 148 - 151
+
+1. void digunakan untuk spesifikasi fungsi yang tidak melakukan return value;
+
+void x;     // error : there are no void objects
+void& r;    // error : there are no references to void
+void f();   // function f does not return a value (§12.1.4)
+void∗ pv;   // pointer to object of unknown type (§7.2.1)
+
+2. fakta mengenai size:
+• 1 ≡ sizeof(char) ≤ sizeof(short) ≤ sizeof(int) ≤ sizeof(long) ≤ sizeof(long long)
+• 1 ≤ sizeof(bool) ≤ sizeof(long)
+• sizeof(char) ≤ sizeof(wchar_t) ≤ sizeof(long)
+• sizeof(float) ≤ sizeof(double) ≤ sizeof(long double)
+• sizeof(N) ≡ sizeof(signed N) ≡ sizeof(unsigned N)
+
+3. 
