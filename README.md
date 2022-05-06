@@ -9,4 +9,4 @@ Repository public yang dibuat untuk tujuan belajar full mastery C++
 <br>
 <br>
 to run in c++11:
-<br>```g++ -std=c++11 file.cpp```
+<br>`g++ -std=c++11 file.cpp`
