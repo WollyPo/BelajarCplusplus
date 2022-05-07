@@ -7,6 +7,5 @@ Repository public yang dibuat untuk tujuan belajar full mastery C++
 <br>Data di branch master
 <br>Akan merge setiap 7 hari sekali (update day%7==0)
 <br>
-<br>
-to run in c++11:
+<br>to run in c++11:
 <br>`g++ -std=c++11 file.cpp`
