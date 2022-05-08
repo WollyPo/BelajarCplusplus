@@ -1,0 +1,15 @@
+page 163 - 165
+
+1. terdapat 2 cara untuk deduksi tipe data dari sebuah expression:
+- auto = deduksi tipe dari objek pada saat inisialisasi
+- decltype(expression) = deduksi sesuatu yang bukan inisialisasi, seperti return type untuk function atau tipe member suatu kelas
+
+2. kelebihan menggunakan auto:
+- mudah ditulis
+- mudah dibaca
+- lebih baik pada saat ada perubahan code
+
+3. kelemahan auto:
+- tidak cocok digunakan pada small scope
+
+4. decltype() cocok digunakan untuk generic programming
