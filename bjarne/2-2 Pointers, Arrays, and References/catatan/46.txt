@@ -1,0 +1,9 @@
+page 171 - 172
+
+1. c++ object biasanya memiliki identitas, yang berdiam di address spesifik dalam memory dan objek bisa diakses ketika kita tau address dan tipe datanya.
+
+2. pointer dan reference dibuat untuk menampung dan menggunakan address.
+
+3. untuk sebuah tipe T, berarti T* adalah "pointer ke T". T* bisa menampung address dari object bertipe data T.
+
+4. operasi dasar dari pointer adalah dereferencing, artinya refer ke object ditunjuk oleh pointer. Kata lainnya adalah indirection.
