@@ -1,0 +1,28 @@
+page 165 - 170
+
+1. object adalah wilayah berkelanjutan dari storage.
+
+2. lvalue adalah expression yang merujuk pada suatu objek
+
+3. lvalue yang tidak dideklarasi const, biasa disebut modifiable lvalue
+
+4. rvalue adalah value yang bukan lvalue, seperti temporary value
+
+5. m -> movable, i -> identity
+lvalue  i&!m
+glvalue i
+xvalue  i&m
+rvalue  m
+prvalue !i&m
+
+6. klasifikasi objek berdasarkan lifetime:
+- automatic: object ini dibuat dalam function dan akan berakhir bila sudah di luar scope
+- static: object yang dideklarasi secara global atau namespace scope. static object berlaku hanya saat program dieksekusi
+- free store: menggunakan operator new dan delete, agar bisa mengontrol lifetime secara langsung
+- temporary object: lifetime yang ditentukan dari penggunaan, temporary adalah bagian dari automatic
+- thread-local object: object yang eksistensinya bergantung pada threadnya sendiri
+
+7. tujuan nama baru untuk sebuah type:
+- original name terlalu panjang, ribet, jelek
+- suatu teknik punya algo berbeda, tetapi namanya sama dengan type yang sudah ada
+- type spesifik hanya disebut di satu tempat untuk mempermudah maintaining

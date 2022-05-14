@@ -1,0 +1,7 @@
+page 172 - 174
+
+1. di low-level code, biasanya diperlukan store atau pass sebuah address dari lokasi memory tanpa mengetahui tipe dari objek bersangkutan. Hal ini dapat dilakukan dengan menggunakan void* (pointer ke object yang tidak diketahui tipe datanya).
+
+2. nullptr adalah pointer yang tidak menunjuk ke objek, sehingga bisa diassign ke pointer type apapun.
+
+3. memakai nullptr meningkatkan readability suatu code. Tujuannya membedakan function overload menerima pointer atau integer

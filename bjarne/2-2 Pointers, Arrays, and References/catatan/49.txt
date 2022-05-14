@@ -1,0 +1,8 @@
+page 179 - 183
+
+1. tidak ada cara untuk mengkonversi pointer ke bentuk array
+
+2. a[j] == ∗(&a[0]+j) == ∗(a+j) == ∗(j+a) == j[a]
+a[j] == j[a]
+
+3. 

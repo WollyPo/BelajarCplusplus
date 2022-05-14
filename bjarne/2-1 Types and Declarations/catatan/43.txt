@@ -1,0 +1,5 @@
+page 161 - 162
+
+1. banyak tipe data, termasuk built-in yang memungkinkan tidak menggunakan initializer. Sebaiknya kita melakukan inisialisasi secara konsisten.
+
+2. jika initializer tidak dispesifikasi, maka defaultnya akan ditambah dengan {}.
