@@ -1,0 +1,5 @@
+page 183 - 186
+
+1. keberadaan second dimension dalam multidimensional array perlu diketahui pada saat passing argument.
+
+2.
