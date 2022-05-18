@@ -1,0 +1,7 @@
+page 190 - 193
+
+1. X& = reference to X
+
+2. reference perlu diinitialize
+
+3. 

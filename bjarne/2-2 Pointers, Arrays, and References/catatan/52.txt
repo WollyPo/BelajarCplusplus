@@ -1,4 +1,4 @@
-page 188 - 
+page 188 - 190
 
 1. pointer membuat kita bisa mengoper jumlah besar data dengan cost yang kecil. dibanding mengkopi seluruh data, kita cukup mengoper addressnya sebagai pointer value.
 
