@@ -1,0 +1,12 @@
+page 193 - 196
+
+1. alasan memiliki lebih dari 1 jenis reference adalah untuk support pemakaian berbeda dari objek:
+- non-const lvalue reference merujuk ke suatu object, di mana user dari reference bisa write
+- const lvalue reference merujuk pada constant, di mana abadi dari sudut pandang user dari reference
+- rvalue reference merujuk pada temp object, di mana user dari reference bisa melakukan modifikasi, asumsi bahwa objek tidak akan dipake lagi
+
+2. rvalue bisa disambung dengan rvalue lain, tetapi tidak ke lvalue.
+
+3. && artinya rvalue reference.
+
+4. 
