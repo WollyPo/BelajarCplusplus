@@ -1,0 +1,10 @@
+page 186 - 188
+
+1. c++ punya 2 relasi mengenai "constant":
+- constexpr: evaluasi pada compile time
+- const: jangan modifikasi di scope ini
+
+2. baca deklarasi dari kanan ke kiri dapat membantu membaca arti deklarasi.
+char *const cp;     // const pointer to char
+char const*pc;      //pointer to const char
+const char* pc2;    //pointer to const char

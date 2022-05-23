@@ -1,0 +1,7 @@
+page 196 - 198
+
+1. pointer dan reference adalah 2 mekanisme untuk merujuk ke suatu object dari tempat yang berbeda tanpa melakukan penyalinan.
+
+2. untuk mengambil koleksi dari sesuatu yang merujuk ke object, gunakan pointer
+
+3. 

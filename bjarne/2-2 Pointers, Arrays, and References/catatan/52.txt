@@ -1,0 +1,10 @@
+page 188 - 190
+
+1. pointer membuat kita bisa mengoper jumlah besar data dengan cost yang kecil. dibanding mengkopi seluruh data, kita cukup mengoper addressnya sebagai pointer value.
+
+2. reference adalah nama alternatif dari sebuah object.
+
+3. jenis-jenis reference:
+- lvalue references: untuk merujuk pada object yang valuenya mau diubah
+- const references: untuk merujuk pada object yang valuenya tidak mau diubah
+- rvalue references: untuk merujuk pada object yang valuenya tidak butuh dipertahankan setelah dipakai.
