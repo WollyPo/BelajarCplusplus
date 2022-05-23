@@ -1,0 +1,7 @@
+page 201 - 
+
+1. terdapat 3 primitive variant dari sebuah user-defined type:
+- struct = sequence dari elemen-elemen yang tipenya bermacam-macam
+- union = struct yang menampung value hanya dari satu dari setiap elemennya pada satu waktu
+- enum = tipe dengan set nama yang constants/enumerator.
+- enum class adalah enum dimana enumerator di dalam scope dari enumeration dan tidak ada konversi implicit ke tipe lain yang tersedia.
